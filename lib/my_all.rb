@@ -5,6 +5,7 @@ def my_all?(collection)
   while i < collection.length
       if !yield(collection[i])
         return false
+      end
           i += 1
   end
 end
